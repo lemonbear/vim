@@ -29,6 +29,7 @@ let maplocalleader=","
 :nnoremap <leader>-  I-- <esc> j^
 
 "Bookmarks current location before searching
+"To go to bookmark press `a
 :nnoremap / ma/
 :nnoremap ? ma?
 
