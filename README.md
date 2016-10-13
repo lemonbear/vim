@@ -1,1 +1,1 @@
-# vim
+My vim configuration for portablity
