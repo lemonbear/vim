@@ -1,5 +1,3 @@
-execute pathogen#infect()
-
 set nocompatible
 filetype off
 
@@ -39,8 +37,6 @@ let maplocalleader=","
 :colorscheme slate
 :set guifont=Consolas:h10
 :syntax on
-:set tabstop=4
-:set autoindent
 :set listchars=tab:`\ ,eol:¬
 :set list
 
@@ -48,10 +44,12 @@ let maplocalleader=","
 :set ignorecase
 :set autoread
 
+"indents
+set tabstop=4 softtabstop=0 expandtab shiftwidth=2 smarttab
+
 "Sets file encoding
 :set encoding=utf-8
 :setglobal fileencoding=utf-8
-
 
 function! FindAndCenter()
 		call inputsave()
